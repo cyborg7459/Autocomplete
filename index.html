@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autocomplete</title>
+    <link rel="stylesheet" href="CSS Files/bootstrap4.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS Files/bootswatch.min.css">
+    <link rel="stylesheet" href="CSS Files/autocomplete.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <h3 class="text-center mb-3">
+                    <i class="fas fa-flag-usa"></i>
+                    States Capital Lookup
+                </h3>
+                <div class="form-group py-0 mb-0">
+                    <input 
+                        type="text"
+                        id="search"
+                        class="form-control form-control-lg"
+                        placeholder="Enter state name or abbreviation..."    
+                    >
+                </div>
+                <div id="match">
+
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="JS Files/autocomplete.js"></script>
+</body>
+</html>
